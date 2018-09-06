@@ -1,0 +1,9 @@
+{
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"name": "Dachshund on Demand",
+	"version": "1.0",
+	"description": "Get a dachshund pic whenever you want!",
+	"manifest_version": 2
+}
