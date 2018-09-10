@@ -1,5 +1,6 @@
 Dog On Demand
 ======
+[https://chrome.google.com/webstore/detail/dog-on-demand/dklghonphaglalnhifohkhggcknoaihe]
 A chrome extension that displays a random dog photo whenever clicked. For Sam.
 
 Goal
