@@ -13,8 +13,8 @@
 		"48": "icon48.png",
 		"128": "icon128.png"
 	},
-	"name": "Dachshund on Demand",
+	"name": "Dog on Demand",
 	"version": "1.0",
-	"description": "Get a dachshund pic whenever you want!",
+	"description": "Get a dog pic whenever you want!",
 	"manifest_version": 2
 }
