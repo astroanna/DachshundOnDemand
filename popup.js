@@ -16,10 +16,10 @@ chrome.storage.sync.get('breed', function(data) {
 		var data = JSON.parse(this.response);
 
 		if (request.status >= 200 && request.status < 400) {
-			puppyPhoto.src = data.message;
 			$(function() {
 				$("img.scale").imageScale();
 			});
+			puppyPhoto.src = data.message;
 		}
 		else {
 			console.log('error');
