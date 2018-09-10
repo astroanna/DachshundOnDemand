@@ -1,5 +1,9 @@
 let dropdown = document.getElementById('dropdown');
 dropdown.length = 0;
+
+let defaultOption = document.createElement('option');
+defaultOption.text = 'all breeds';
+dropdown.add(defaultOption);
 dropdown.selectedIndex = 0;
 
 var request = new XMLHttpRequest();

@@ -3,7 +3,13 @@ let puppyPhoto = document.getElementById('puppyPhoto');
 var request = new XMLHttpRequest();
 
 chrome.storage.sync.get('breed', function(data) {
-	var dogBreed = 'https://dog.ceo/api/breed/' + data.breed + '/images/random';
+	let dogBreed;
+	if (data.breed == 'all breeds') {
+		dogBreed = 'https://dog.ceo/api/breeds/image/random';
+	}
+	else {
+		dogBreed = 'https://dog.ceo/api/breed/' + data.breed + '/images/random';
+	}
 	request.open('GET', dogBreed, true);
 
 	request.onload = function() {
