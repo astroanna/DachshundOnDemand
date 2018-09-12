@@ -143,7 +143,7 @@
       @default 0
       @since Version 1.1
     */
-    fadeInDuration: 0,
+    fadeInDuration: 150,
 
     /**
       A boolean indicating if the image size should be rescaled when the window is resized.

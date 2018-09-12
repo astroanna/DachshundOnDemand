@@ -1,0 +1,39 @@
+body {
+	background-image: url("pawpattern.jpg");
+	background-repeat: repeat;
+}
+
+.panel {
+	width: 700px;
+	height: 700px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	overflow: auto;
+}
+
+.container {
+	width: 100%;
+	overflow: auto;
+}
+
+.content {
+	font-size: 50px;
+	margin-top: 50px;
+	font-family: 'Coming Soon', cursive;
+}
+
+#dropdown {
+	font-family: 'Coming Soon', cursive;
+	font-size: 20px;
+	height: 50px;
+	width: 200px;
+	margin-top: -50px;
+}
+
+#submitButton {
+	font-family: 'Coming Soon', cursive;
+	height: 50px;
+	width: 100px;
+}
