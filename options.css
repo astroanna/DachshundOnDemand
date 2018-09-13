@@ -11,6 +11,13 @@ body {
 	margin-top: 50px;
 	text-align: center;
 	overflow: auto;
+	border-style: solid;
+	border-color: #e7aaff;
+	border-width: 5px;
+}
+
+#currentBreed {
+	font-size: 30px;
 }
 
 .container {
