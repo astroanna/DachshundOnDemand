@@ -14,7 +14,7 @@
 		"128": "icon128.png"
 	},
 	"name": "Dog on Demand",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Get a dog pic whenever you want!",
 	"manifest_version": 2
 }
